@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="space"></div>
+    <div class="wrapper">
+        <form action="" name="calcolater">
+            <input type="text" name="screen" id="scr"> <br>
+            <input type="button" class="color" value="1" onclick="calcolater.screen.value += '1'">
+            <input type="button" class="color" value="2" onclick="calcolater.screen.value += '2'">
+            <input type="button" class="color" value="3" onclick="calcolater.screen.value += '3'">
+            <br>
+
+            <input type="button" class="color"value="4" onclick="calcolater.screen.value += '4'">
+            <input type="button" class="color"value="5" onclick="calcolater.screen.value += '5'">
+            <input type="button" class="color"value="6" onclick="calcolater.screen.value += '6'">
+            <br>
+
+            <input type="button" class="color"value="7" onclick="calcolater.screen.value += '7'">
+            <input type="button" class="color"value="8" onclick="calcolater.screen.value += '8'">
+            <input type="button" class="color"value="9" onclick="calcolater.screen.value += '9'">
+            <br>
+
+            <input type="button" class="color"value="+" onclick="calcolater.screen.value += '+'">
+            <input type="button" class="color"value="-" onclick="calcolater.screen.value += '-'">
+            <input type="button" class="color"value="*" onclick="calcolater.screen.value += '*'">
+            <br>
+
+            <input type="button" class="color"value="/" onclick="calcolater.screen.value += '/'">
+            <input type="button" class="color"value="0" onclick="calcolater.screen.value += '0'">
+            
+            <input type="button" class="color"value="=" onclick="calcolater.screen.value =eval(calcolater.screen.value)">
+            <br>
+            <input type="button" class="color"value="Clear All" onclick="calcolater.screen.value = ''" id="clear">
+ </form>
+    </div>
+</div>
+</body>
+</html>
